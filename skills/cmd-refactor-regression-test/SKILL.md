@@ -15,7 +15,16 @@ Use this skill when:
 - moving commands into subdirectories under `cmd/`
 - extracting common helpers into `cmd/utils`
 - updating command registration in `cmd/root.go`
-- changing the behavior of `add`, `install`, `list`, `push`, `remove`, `search`, `status`, `update`, or `version`
+- changing the behavior of `add`, `install`, `list`, `push`, `remove`, `search`, `status`, `update`, or version-related flags
+
+## Version And Tag Standard
+
+- `metadata.version` uses SemVer without `v` prefix (example: `1.1.0`).
+- Git release tags for multi-skill repositories must be skill-scoped:
+  - `skill/<skill-name>/v<semver>`
+- Example for this skill:
+  - `skill/cmd-refactor-regression-test/v1.1.0`
+- If multiple skills are released together, create one tag per skill, even if the SemVer value is the same.
 
 ## Goal
 
