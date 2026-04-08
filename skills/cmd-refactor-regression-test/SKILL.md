@@ -3,7 +3,7 @@ name: cmd-refactor-regression-test
 description: Use this skill when validating cmd subpackage migrations, shared cmd/utils extraction, or Cobra command wiring changes in this repository.
 user-invocable: true
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   author: GitHub Copilot
   tags: [testing, regression, cli, cobra, golang]
 ---
@@ -23,7 +23,7 @@ Use this skill when:
 - Git release tags for multi-skill repositories must be skill-scoped:
   - `skill/<skill-name>/v<semver>`
 - Example for this skill:
-  - `skill/cmd-refactor-regression-test/v1.1.0`
+  - `skill/cmd-refactor-regression-test/v1.2.0`
 - If multiple skills are released together, create one tag per skill, even if the SemVer value is the same.
 
 ## Goal
