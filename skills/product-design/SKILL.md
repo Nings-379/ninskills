@@ -1,6 +1,10 @@
 ---
 name: product-design
 description: Design and model product features from natural language requirements into structured YAML definitions
+metadata:
+  version: 1.0.0
+  author: GitHub Copilot
+  tags: [product-design, requirements, yaml, modeling, domain-driven]
 ---
 
 # Product Design Skill
